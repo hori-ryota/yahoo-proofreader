@@ -1,0 +1,32 @@
+{
+  // Enforccing options
+  "bitwise": true,
+  "curly": true,
+  "forin": true,
+  "freeze": true,
+  "funcscope": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "maxlen": 80,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonbsp": true,
+  "nonew": true,
+  "notypeof": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  
+  // Relaxing options
+  "esnext": true,
+  
+  // Environments
+  "browser": true,
+  "node": true,
+
+  "globals": {
+    "chrome": true
+  }
+}
