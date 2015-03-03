@@ -1,11 +1,11 @@
 yahoo-proofreader
 ================================
 
-Proofreading using yahoo api.
+Proofreading by yahoo api.
 
 ## Warning
 
-JSONP Unsupported
+JSONP unsupported
 
 ## Usage
 

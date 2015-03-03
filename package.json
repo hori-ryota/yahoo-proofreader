@@ -5,7 +5,7 @@
     "name": "Hori Ryota",
     "email": "hori.ryota@gmail.com"
   },
-  "description": "Proofread using yahoo api",
+  "description": "Proofreading by yahoo api",
   "files": [
     "README.md",
     "build"
