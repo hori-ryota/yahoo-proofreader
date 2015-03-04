@@ -52,9 +52,7 @@ let fetchProofread = (() => {
         }
       };
       xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.send(
-        'appId=' + appId + '&sentence=' + encodeURIComponent(sentence)
-      );
+      xhr.send(`appId=${appId}&sentence=${encodeURIComponent(sentence)}`);
     });
   };
 }());
@@ -84,7 +82,7 @@ class YahooProofreader {
     if (!sentence) {
       throw new Error('sentence is required');
     }
-    return fetchProofread(sentence);
+    return fetchProofread(this.appId, sentence);
   }
 }
 
